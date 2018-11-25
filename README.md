@@ -6,8 +6,10 @@ A DBMS Project which keeps track of the calories consumed and notifies the users
 - Xampp Server
 ### Installing
 - Download the Xampp software from the official website.
-- Save the code in the xampp/htdocs folder.
-### Executing Program
+- Save the code in the xampp/htdocs/scripts folder.
+- Import the calorie.sql file into the database.<br/>
+ Type ```localhost/phpmyadmin```on the browser -> Import -> Choose File -> Upload File
+### Executing Program 
 Type ``` localhost/index.php``` on the browser.
 ## Authors
 @Kiittyka
