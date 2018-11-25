@@ -1,0 +1,250 @@
+body {
+     font-family:Arial, Sans-Serif;
+     margin: 0;
+     background: url('halftone-yellow.png');
+}
+header{
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+header > h1{
+  margin: 0;
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+     width: 300px;
+     margin: 0 auto;
+}
+input[type='text'], input[type='email'],
+input[type='password'], input[type='number'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color: #0067ab;
+     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+     border: 1px solid #0164a5;
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+#select {
+  width: 222px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#users{
+  width: 222px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input[type='submit']:hover {
+     background-color: #024978;
+}
+
+
+.main{
+  width: 80%;
+  margin: auto;
+}
+.left{
+  float: left;
+  width: 50%;
+}
+.right {
+  float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#54C571;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #000000;
+ }
+
+ #align{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 23px arial,Sans-Serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #ffffff;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    background-color:#ffffff;
+}
+
+.header{
+       background-color:#000;
+       color:#fff;     
+       border-color: #080808;
+       min-height: 50px;    
+       border: 1px solid transparent; 
+ } 
+ 
+ .inner-header{
+       width:80%;
+       margin:auto; 
+ 
+ }
+ 
+ .logo{
+   float: left;
+   height: 50px;
+   padding: 15px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.header-link{
+        float:right; 
+        font-size:14px;
+        height: 50px;
+        padding: 15px 15px;
+        font-size:16px;
+        font-weight: bold; 
+}
+.info{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    border: 7pt solid transparent;
+    background: antiquewhite;
+    font-family: "VegurRegular";
+  }
+
+  .align{
+    margin-top: 100 px;
+  }
+
+  #dieticians {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#dieticians td, #dieticians th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#dieticians tr:nth-child(even){background-color: #f2f2f2;}
+
+#dieticians tr:hover {background-color: #ddd;}
+
+#dieticians th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+}
+.qq {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+ 
+}
