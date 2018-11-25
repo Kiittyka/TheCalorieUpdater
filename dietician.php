@@ -6,14 +6,14 @@ require('db.php');
 <html>
 <head>
 <title>Welcome Home</title>
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="style.css" />
 <
 <body>
 <div> 
 <ul> 
   <li id="align">The Calorie Updater</li> 
   <li><a href="logout.php">Logout</a></li> 
-  <li><a href="about.html">About</a></li>  
+  <li><a>About</a></li>  
   <li><a class="active" href="index.php">Dashboard</a></li>
   <li><a href="login.php">Home</a></li>
 </ul>

@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Calorie Consumption</title>
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="style.css" />
 <body background="wild-sea.png">
 <div> 
 <ul> 

@@ -8,7 +8,7 @@ require('db.php');
 <head>
 <meta charset="utf-8">
 <title>Welcome Home</title>
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type = "text/javascript">
     </script>
